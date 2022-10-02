@@ -12,5 +12,5 @@ btn.addEventListener("click", () => {
     .then((data) => {
       translation.innerHTML = data.contents.translated;
     })
-    .catch((error) => alert("something went wrong", error)); 
+    .catch((error) => alert("Something went wrong", error)); 
 });
